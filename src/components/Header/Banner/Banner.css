@@ -1,0 +1,15 @@
+.primary-button{
+    text-decoration: none;
+    color: #fff;
+    background: #3366cc;
+    text-transform: capitalize;
+    padding: 8px 30px;
+    border: 2px solid #3366cc;
+    transition: .4s;
+    font-family: 'Dosis', sans-serif;
+  }
+.primary-button:hover{
+    background: transparent;
+    color: #3366cc;
+}
+  

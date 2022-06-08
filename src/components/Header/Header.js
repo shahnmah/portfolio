@@ -5,8 +5,8 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className="header">
-            <Navbar bg="transparent" expand="lg">
+        <div style={{ backgroundColor: '#FBFBFB' }} className="header">
+            <Navbar expand="lg">
             <Container>
                 <Navbar.Brand href="#home">Shahin</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
