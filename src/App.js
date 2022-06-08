@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes } from 'react-router-dom';
-import Banner from './components/Header/Banner/Banner';
+import About from './components/About/About';
+import Banner from './components/Banner/Banner';
 import Header from './components/Header/Header';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
         <Header/>
         <Banner/>
+        <About/>
         <Routes>
 
         </Routes>

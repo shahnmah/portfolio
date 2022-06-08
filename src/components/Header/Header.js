@@ -8,7 +8,7 @@ const Header = () => {
         <div style={{ backgroundColor: '#FBFBFB' }} className="header">
             <Navbar expand="lg">
             <Container>
-                <Navbar.Brand href="#home">Shahin</Navbar.Brand>
+                <Navbar.Brand href="#">Shahin</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto menu">

@@ -7,7 +7,7 @@ const Banner = () => {
         <div style={{ backgroundColor: '#FBFBFB' }} class="banner">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 d-flex align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center">
                         <div>
                             <h5 className='fw-bold fs-4'>Hello</h5>
                             <h1 className='fw-bold display-2'>I'm Shahin</h1>
@@ -15,7 +15,7 @@ const Banner = () => {
                             <a href='https://drive.google.com/file/d/1ie5iYkW4hP2oeUxLfw99Uct5LXySjXWf/view?usp=sharing' target={"_blank"} className='fs-5 primary-button'>Download Resume</a>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                         <Player
                             autoplay
                             loop
