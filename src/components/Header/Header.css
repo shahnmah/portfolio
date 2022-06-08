@@ -1,0 +1,27 @@
+.header a{
+    color: #222;
+    position: relative;
+    text-transform: capitalize; 
+    text-decoration: none;
+    transition: .4s;
+}
+.header a:hover{
+    color: #3366cc;
+}
+.header a:after{
+    width: 0px;
+    height: 1px;
+    background: #3366cc;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+    transform: scale(0);
+}
+.header a:hover:after{
+    opacity: 1;
+    width: 100%;
+    transform: scale(1);
+}
