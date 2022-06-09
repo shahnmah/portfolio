@@ -15,7 +15,9 @@ const Header = () => {
                         <a className='ms-4' href="#banner">Home</a>
                         <a className='ms-4' href="#about">About</a>
                         <a className='ms-4' href="#projects">Projects</a>
+                        <a className='ms-4' href="blogs.js">Blogs</a>
                         <a className='ms-4' href="#contact">Contact</a>
+                        <Link className='ms-4' to='/blogs'>Blogs</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
