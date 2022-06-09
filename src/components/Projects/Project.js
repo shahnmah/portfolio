@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Project.css'
 const Project = ({ project }) => {
     const { name, title, img, live, github, dis } = project;
     return (
@@ -14,8 +14,8 @@ const Project = ({ project }) => {
                     <p>{dis}</p>
                 </div>
                 <div>
-                    <a className='primary-button me-3' href={github}>Github</a>
-                    <a className='primary-button' href={live}>See Live</a>
+                    <a className='primary-button project-button me-3' href={github}>Github</a>
+                    <a className='primary-button project-button' href={live}>See Live</a>
                 </div>
             </div>
         </div>

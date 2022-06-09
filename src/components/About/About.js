@@ -15,7 +15,7 @@ const About = () => {
                             {/* <ParallaxHover width={} height={485} radius={5} rotation={5} shine={0} scale={1}>
                                 <img className='img-fluid' src="https://i.ibb.co/ky90BCb/me12.png" alt="" />
                             </ParallaxHover> */}
-                            <img className='img-fluid' src="https://i.ibb.co/ky90BCb/me12.png" alt="" />
+                            <img className='img-fluid' src="https://i.ibb.co/ySgNkF3/me12.jpg" alt="" />
                         </div>
 
                     </div>

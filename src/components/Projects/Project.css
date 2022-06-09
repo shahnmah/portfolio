@@ -1,0 +1,7 @@
+@media only screen and (max-width: 991px) and (min-width: 576px){
+    .project-button{
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+}
