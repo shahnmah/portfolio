@@ -5,7 +5,8 @@
         "title": "Tools Manufacture Website",
         "img":"https://i.ibb.co/WGbFFm6/screencapture-toolsa-d0a43-web-app-2022-06-09-12-53-49.png",
         "live":"https://toolsa-d0a43.web.app/",
-        "github": "https://github.com/shahnmah/toolsa-client"
+        "github": "https://github.com/shahnmah/toolsa-client",
+        "dis": "It’s a tools manufacture website, where user can create account and order tools."
     },
     {
         "id":2,
@@ -13,7 +14,8 @@
         "title": "Travel Guide Service Website",
         "img":"https://i.ibb.co/mDk5tgR/screencapture-travel-guide-c24c4-web-app-2022-06-09-12-53-01.png",
         "live":"https://travel-guide-c24c4.web.app/",
-        "github": "https://github.com/shahnmah/travel-guide"
+        "github": "https://github.com/shahnmah/travel-guide",
+        "dis": "It’s a stock management website, where admin can manage stock items."
     },
     {
         "id":3,
@@ -21,6 +23,7 @@
         "title": "Single Product Review Website",
         "img":"https://i.ibb.co/614mR4L/screencapture-shahmah-dronezhouse-netlify-app-home-2022-06-09-14-13-04.png",
         "live":"https://shahmah-dronezhouse.netlify.app/",
-        "github": "https://github.com/shahnmah/DronezHouse"
+        "github": "https://github.com/shahnmah/DronezHouse",
+        "dis": "It’s a travel guide service provider website, where user can hire travel guide."
     }
 ]

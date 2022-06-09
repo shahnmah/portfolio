@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import About from './components/About/About';
 import Banner from './components/Banner/Banner';
 import Contact from './components/Contact/Contact';
@@ -14,9 +14,6 @@ function App() {
         <About/>
         <Projects/>
         <Contact/>
-        <Routes>
-        </Routes>
-
     </div>
   );
 }

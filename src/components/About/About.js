@@ -7,7 +7,7 @@ import { FaLinkedinIn, FaGithubSquare, FaFacebookF, FaInstagram, FaTwitter } fro
 
 const About = () => {
     return (
-        <div className='my-5 banner'>
+        <div id='about' className='my-5 banner'>
             <div className="container">
                 <div className="row py-5 g-5">
                     <div className="col-lg-5 col-md-5 col-sm-12 col-12">
@@ -22,7 +22,8 @@ const About = () => {
                     <div className="col-lg-7 col-md-7 col-sm-12 col-12">
                         <h4 className='fw-bold style-heading'>About Me</h4>
                         <h4 className='fw-bold'>I'm Professional Front End Developer <br /> & Tech Enthusiast</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id inventore natus neque sit rerum, velit ipsum. Culpa omnis harum quisquam veniam rerum provident magnam explicabo tempore. Atque autem cumque nisi. natus neque sit rerum, velit ipsum. Culpa omnis harum quisquam veniam rerum.natus neque sit rerum, velit ipsum. Culpa omnis harum quisquam veniam rerum provident magnam explicabo tempore. Atque autem cumque nisi.</p>
+                        <p>Hello there, I am Shahin Miah. A Front End Developer from Bangladesh. Skilled in Front-end Development, html, css, jQuery, javascript, Bootstrap, Tailwind Css, Responsive Web Design, React, Node js, MongoDb, Express js. Strong web development professional with a Bachelor of Business Administration - BBA focused in Marketing from Khilgaon Model University College.</p>
+                        <p>My vision is build a career in the Web and Software industry, and reach towards my goals.</p>
                         <div>
                             <ul className='ps-0'>
                                 <li className='me-5'><FontAwesomeIcon icon={faEnvelope} /><span className='fw-bold ms-3'>Email:</span> shahn.mah@gmail.com</li>
@@ -35,11 +36,11 @@ const About = () => {
                         </div>
                         <div>
                             <ul className='ps-0 social-link'>
-                                <li><a href=""><FaLinkedinIn /></a></li>
-                                <li><a href=""><FaGithubSquare /></a></li>
-                                <li><a href=""><FaFacebookF /></a></li>
-                                <li><a href=""><FaInstagram/></a></li>
-                                <li><a href=""><FaTwitter/></a></li>
+                                <li><a href="https://www.linkedin.com/in/shahnmah/" target={'_blank'}><FaLinkedinIn /></a></li>
+                                <li><a href="https://github.com/shahnmah" target={'_blank'}><FaGithubSquare /></a></li>
+                                <li><a href="https://www.facebook.com/shahnmah/" target={'_blank'}><FaFacebookF /></a></li>
+                                <li><a href="https://www.instagram.com/shahnmah/" target={'_blank'}><FaInstagram/></a></li>
+                                <li><a href="https://twitter.com/shahnmah" target={'_blank'}><FaTwitter/></a></li>
                             </ul>
                         </div>
                     </div>
