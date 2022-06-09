@@ -1,7 +1,7 @@
-.projects-heading h2{
+.style-heading-2 h2{
     position: relative;
 }
-.projects-heading h2:after{
+.style-heading-2 h2:after{
     width: 54px;
     height: 2px;
     content: "";

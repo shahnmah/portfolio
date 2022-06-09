@@ -12,8 +12,8 @@ const Projects = () => {
     return (
         <div className="projects my-5 py-5" style={{ backgroundColor: '#FBFBFB' }}>
             <div className='container'>
-                <div className='text-center projects-heading'>
-                    <h2 className='fw-bold'>Projects</h2>
+                <div className='text-center style-heading-2'>
+                    <h2 className='fw-bold'>My Projects</h2>
                     <p className='my-0 mx-auto w-50'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab voluptatibus explicabo ex autem ullam voluptatibus</p>
                 </div>
                 <div className="row g-5">
