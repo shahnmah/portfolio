@@ -1,14 +1,14 @@
-.header a{
+.menu a{
     color: #222;
     position: relative;
     text-transform: capitalize; 
     text-decoration: none;
     transition: .4s;
 }
-.header a:hover{
+.menu a:hover{
     color: #3366cc;
 }
-.header a:after{
+.menu a:after{
     width: 0px;
     height: 1px;
     background: #3366cc;
@@ -20,8 +20,31 @@
     transition: .4s;
     transform: scale(0);
 }
-.header a:hover:after{
+.menu a:hover:after{
     opacity: 1;
     width: 100%;
     transform: scale(1);
+}
+.navbar-brand .navbar-brand{
+    color: #3366cc;
+}
+
+
+@media only screen and (max-width: 575px){
+    .logo-text{
+     margin-left: 5%;
+    }
+    /* .header-container{
+        width: 75%;
+        margin: 0 auto;
+    } */
+}
+@media only screen and (max-width: 380px){
+    .logo-text{
+     margin-left: -9%;
+    }
+    .header-container{
+        width: 80%;
+        margin: 0 auto;
+    }
 }

@@ -1,7 +1,9 @@
+import React, { useRef } from 'react';
 import { Controls, Player } from '@lottiefiles/react-lottie-player';
-import React, { useRef, useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
     const form = useRef();
@@ -11,10 +13,11 @@ const Contact = () => {
        
         emailjs.sendForm('service_ppicngi', 'template_v5r8m38', form.current, '98eZXE4kLrpSIU2TB')
           .then((result) => {
-              console.log(result.text);
+              e.target.reset();
+              toast.success('Email send successfully')
               
           }, (error) => {
-              console.log(error.text);
+              toast.error('Something wrong')
           });
       
     };
@@ -52,6 +55,7 @@ const Contact = () => {
                                 Send
                             </Button>
                         </form>
+                        <ToastContainer />
                     </div>
                 </div>
             </div>

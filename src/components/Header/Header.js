@@ -7,8 +7,8 @@ const Header = () => {
     return (
         <div style={{ backgroundColor: '#FBFBFB' }} className="header">
             <Navbar expand="lg">
-            <Container>
-                <Navbar.Brand href="#">Shahin</Navbar.Brand>
+            <Container className='header-container'>
+                <Navbar.Brand href="#" style={{color:'#3366cc'}} className='logo-text'><h2>Shahin.</h2></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto menu">

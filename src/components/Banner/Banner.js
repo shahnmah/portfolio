@@ -8,7 +8,7 @@ const Banner = () => {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center">
-                        <div>
+                        <div className='banner-text'>
                             <h5 className='fw-bold fs-4'>Hello</h5>
                             <h1 className='fw-bold display-2'>I'm Shahin</h1>
                             <h5 className='fw-bold fs-4 mb-4'>Front End Developer</h5>

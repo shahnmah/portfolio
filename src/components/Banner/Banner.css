@@ -12,9 +12,27 @@
     background: transparent;
     color: #3366cc;
 }
-/* .banner-image{
-  height: 650px;
-  background: #ffb32b;
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 65% 100%, 0 0%, 0 0);
-  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 65% 100%, 0 0%, 0 0);
-} */
+@media only screen and (max-width: 575px){
+ .banner-text{
+  margin-left: 5%;
+ }
+}
+
+@media only screen and (max-width: 425px){
+ #lottie{
+  width: 90%;
+  padding-right: 7%;
+ }
+}
+@media only screen and (max-width: 390px){
+  #lottie{
+   width: 90%;
+   padding-right: 15%;
+  }
+ }
+@media only screen and (max-width: 370px){
+  #lottie{
+   width: 70%;
+   padding-right: 20%;
+  }
+ }

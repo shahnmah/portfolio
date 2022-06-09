@@ -12,7 +12,7 @@ const About = () => {
                 <div className="row py-5 g-5">
                     <div className="col-lg-5 col-md-5 col-sm-12 col-12">
                         <div className='about-img-part'>
-                            {/* <ParallaxHover width={440} height={485} radius={5} rotation={5} shine={0} scale={1}>
+                            {/* <ParallaxHover width={} height={485} radius={5} rotation={5} shine={0} scale={1}>
                                 <img className='img-fluid' src="https://i.ibb.co/ky90BCb/me12.png" alt="" />
                             </ParallaxHover> */}
                             <img className='img-fluid' src="https://i.ibb.co/ky90BCb/me12.png" alt="" />
