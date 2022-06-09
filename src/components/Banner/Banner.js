@@ -15,7 +15,7 @@ const Banner = () => {
                             <a href='https://drive.google.com/file/d/1ie5iYkW4hP2oeUxLfw99Uct5LXySjXWf/view?usp=sharing' target={"_blank"} className='fs-5 primary-button'>Download Resume</a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 banner-image">
                         <Player
                             autoplay
                             loop

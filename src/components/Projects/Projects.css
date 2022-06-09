@@ -1,0 +1,13 @@
+.projects-heading h2{
+    position: relative;
+}
+.projects-heading h2:after{
+    width: 54px;
+    height: 2px;
+    content: "";
+    background: #3366cc;
+    position: absolute;
+    top: 41px;
+    left: 50%;
+    transform: translateX(-50%);
+}
