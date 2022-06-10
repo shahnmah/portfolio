@@ -4,6 +4,8 @@ import { Button, Form } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ScrollToTop from "react-scroll-to-top";
+
 
 const Contact = () => {
     const form = useRef();
@@ -59,6 +61,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <ScrollToTop smooth top="1000" color="#3366cc"/>
         </div>
     );
 };
