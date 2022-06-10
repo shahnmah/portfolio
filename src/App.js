@@ -14,9 +14,7 @@ function App() {
       <Banner />
       <About />
       <Projects />
-      <Routes>
-        <Route path='blogs' element={<Blogs />} />
-      </Routes>
+      <Blogs/>
       <Contact />
     </div>
   );
