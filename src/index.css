@@ -22,3 +22,16 @@ ul{
 li{
   display: inline-block;
 }
+@media only screen and (max-width: 991px) {
+  .section-p{
+    width: 90%;
+  }
+  .menu a{
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .section-p{
+    width: 50%;
+  }
+}

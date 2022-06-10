@@ -54,3 +54,11 @@
         width: 90%;
     }
 }
+@media only screen and (max-width: 991px) {
+    .aga-icon{
+        margin-left: 0 !important;
+    }
+    .about-li-2 li{
+        display: block;
+    }
+}

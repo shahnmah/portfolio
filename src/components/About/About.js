@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css'
-import { ParallaxHover } from 'react-parallax-hover';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faUser, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FaLinkedinIn, FaGithubSquare, FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
@@ -12,9 +11,6 @@ const About = () => {
                 <div className="row py-5 g-5">
                     <div className="col-lg-5 col-md-5 col-sm-12 col-12">
                         <div className='about-img-part'>
-                            {/* <ParallaxHover width={} height={485} radius={5} rotation={5} shine={0} scale={1}>
-                                <img className='img-fluid' src="https://i.ibb.co/ky90BCb/me12.png" alt="" />
-                            </ParallaxHover> */}
                             <img className='img-fluid' src="https://i.ibb.co/ySgNkF3/me12.jpg" alt="" />
                         </div>
 
@@ -29,9 +25,9 @@ const About = () => {
                                 <li className='me-5'><FontAwesomeIcon icon={faEnvelope} /><span className='fw-bold ms-3'>Email:</span> shahn.mah@gmail.com</li>
                                 <li><FontAwesomeIcon icon={faPhone} /><span className='fw-bold ms-3'>Phone:</span> +8801741409006</li>
                             </ul>
-                            <ul className='ps-0'>
+                            <ul className='ps-0 about-li-2'>
                                 <li className='me-5'><FontAwesomeIcon icon={faLocationDot} /><span className='fw-bold ms-3'>Address:</span> Dhaka, Bangladesh</li>
-                                <li className='ms-3'><FontAwesomeIcon icon={faUser} /><span className='fw-bold ms-3'>Age:</span> 24</li>
+                                <li className='ms-3 aga-icon'><FontAwesomeIcon icon={faUser} /><span className='fw-bold ms-3'>Age:</span> 24</li>
                             </ul>
                         </div>
                         <div>
