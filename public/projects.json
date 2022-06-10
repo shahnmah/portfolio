@@ -4,26 +4,47 @@
         "name":"Toolsa",
         "title": "Tools Manufacture Website",
         "img":"https://i.ibb.co/WGbFFm6/screencapture-toolsa-d0a43-web-app-2022-06-09-12-53-49.png",
+        "slideImg1":"https://i.ibb.co/L6RdHfK/toolsa1.png",
+        "slideImg2":"https://i.ibb.co/DWZyqJW/toolsa2.png",
+        "slideImg3":"https://i.ibb.co/HVqZgXc/toolsa3.png",
+        "slideImg4":"https://i.ibb.co/hdb2XwC/toolsa4.png",
+        "slideImg5":"https://i.ibb.co/XXmPs8h/toolsa5.png",
         "live":"https://toolsa-d0a43.web.app/",
         "github": "https://github.com/shahnmah/toolsa-client",
-        "dis": "It’s a tools manufacture website, where user can create account and order tools."
+        "dis": "It’s a tools manufacture website, where users can create account and order tools.",
+        "disMore":"It’s a tools manufacturer website, where users can create accounts and order tools. User can manage their orders and they can give reviews. User can pay their order using Bank Card. Admin can manage products, users, and orders. Admin can add new products and delete products",
+        "tech":"React, React Router, React Query, Bootstrap, MongoDB, Node js, Express js, Firebase, Stipe payment"
     },
     {
         "id":2,
         "name":"David",
         "title": "Travel Guide Service Website",
         "img":"https://i.ibb.co/mDk5tgR/screencapture-travel-guide-c24c4-web-app-2022-06-09-12-53-01.png",
+        "slideImg1":"https://i.ibb.co/3f8c5Q2/david-1.png",
+        "slideImg2":"https://i.ibb.co/8bknwFd/david2.png",
+        "slideImg3":"https://i.ibb.co/tQyttS9/david3.png",
+        "slideImg4":"https://i.ibb.co/QbbsXT0/david4.png",
+        "slideImg5":"https://i.ibb.co/88RbR1S/david5.png",
         "live":"https://travel-guide-c24c4.web.app/",
         "github": "https://github.com/shahnmah/travel-guide",
-        "dis": "It’s a stock management website, where admin can manage stock items."
+        "dis": "It’s a travel guide service provider website, where users can hire travel guide.",
+        "disMore":"It’s a travel guide service provider website, where users can create an account and hire a travel guide. User can book their guide for a specific dates and places. Users can choose different places and can learn about new places",
+        "tech":"React, React Router, Bootstrap, React Bootstrap Firebase, Css"
     },
     {
         "id":3,
         "name":"Dronez House",
         "title": "Single Product Review Website",
         "img":"https://i.ibb.co/614mR4L/screencapture-shahmah-dronezhouse-netlify-app-home-2022-06-09-14-13-04.png",
+        "slideImg1":"https://i.ibb.co/rskrY7G/dronez1.png",
+        "slideImg2":"https://i.ibb.co/BwTWQzM/drone2.png",
+        "slideImg3":"https://i.ibb.co/PzyxJtN/drone3.png",
+        "slideImg4":"https://i.ibb.co/rskrY7G/dronez1.png",
+        "slideImg5":"https://i.ibb.co/BwTWQzM/drone2.png",
         "live":"https://shahmah-dronezhouse.netlify.app/",
         "github": "https://github.com/shahnmah/DronezHouse",
-        "dis": "It’s a travel guide service provider website, where user can hire travel guide."
+        "dis": "Single Product Review Website, where user can see product reviews.",
+        "disMore":"Single Product Review Website, where users can see product reviews. Users can know about the product and they see product users review.",
+        "tech":"React, React Router, Bootstrap, React Bootstrap Firebase, Css"
     }
 ]

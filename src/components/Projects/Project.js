@@ -3,10 +3,11 @@ import './Project.css'
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 import { Carousel } from 'react-bootstrap';
-const Project = ({ project }) => {
-    const { name, title, img, live, github, dis } = project;
-    const [open, setOpen] = useState(false);
+import { BsInfoSquareFill } from "react-icons/bs";
 
+const Project = ({ project }) => {
+    const { name, title, img, live, github, dis, slideImg1, slideImg2, slideImg3, slideImg4, slideImg5, disMore, tech } = project;
+    const [open, setOpen] = useState(false);
     const onOpenModal = () => setOpen(true);
     const onCloseModal = () => setOpen(false);
     return (
@@ -16,61 +17,68 @@ const Project = ({ project }) => {
                     <img className='img-fluid' src={img} alt="" />
                     <button onClick={onOpenModal}>Open modal</button>
                 </div>
-                <div className='mt-3 mb-4'>
+                <div className='mt-3 mb-4 project-sub-details'>
+                    <button className='modal-button primary-button position-absolute' onClick={onOpenModal}><BsInfoSquareFill /></button>
                     <h4 className='fw-bold'>{name}</h4>
                     <h5 className='fw-bold'>{title}</h5>
                     <p>{dis}</p>
+                    <button className='modal-button primary-button' onClick={onOpenModal}><BsInfoSquareFill /></button>
                 </div>
                 <div>
                     <a className='primary-button project-button me-3' href={github}>Github</a>
                     <a className='primary-button project-button' href={live}>See Live</a>
                 </div>
             </div>
-            <button onClick={onOpenModal}>Open modal</button>
             <Modal open={open} onClose={onCloseModal} center>
+
                 <Carousel>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="holder.js/800x400?text=First slide&bg=373940"
+                            src={slideImg1}
                             alt="First slide"
                         />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="holder.js/800x400?text=Second slide&bg=282c34"
+                            src={slideImg2}
                             alt="Second slide"
                         />
-
-                        <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="holder.js/800x400?text=Third slide&bg=20232a"
+                            src={slideImg3}
                             alt="Third slide"
                         />
-
-                        <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={slideImg4}
+                            alt="Third slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={slideImg5}
+                            alt="Third slide"
+                        />
                     </Carousel.Item>
                 </Carousel>
+
                 <h2>{name}</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                    pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
-                    hendrerit risus, sed porttitor quam.
+                    {disMore}
                 </p>
+                <h5 className='fw-bold'>Technology Used</h5>
+                <p>{tech}</p>
+                <div>
+                    <a className='primary-button me-3' href={github} target={'_blank'}>Github</a>
+                    <a className='primary-button' href={live} target={'_blank'}>See Live</a>
+                </div>
             </Modal>
         </div>
     );
