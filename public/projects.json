@@ -33,6 +33,22 @@
     },
     {
         "id":3,
+        "name":"Inventory",
+        "title": "Inventory Management Website",
+        "img":"https://i.ibb.co/7v4RzJQ/screencapture-inventory-website-2239c-web-app-home-2022-06-30-14-14-17.png",
+        "slideImg1":"https://i.ibb.co/0VgY36d/Screenshot-3.png",
+        "slideImg2":"https://i.ibb.co/BCmdXyh/Screenshot-6.png",
+        "slideImg3":"https://i.ibb.co/56c4fZc/screencapture-inventory-website-2239c-web-app-update-Item-62769bb8f5e0dead22908071-2022-06-30-14-17.png",
+        "slideImg4":"https://i.ibb.co/G5V2ChH/Screenshot-4.png",
+        "slideImg5":"https://i.ibb.co/K5grFZf/Screenshot-5.png",
+        "live":"https://inventory-website-2239c.web.app/",
+        "github": "https://github.com/shahnmah/stock-management-client",
+        "dis": "It’s a stock management website, where admin can manage stock items.",
+        "disMore":"It’s a stock management website, where admin can manage stock items. Admin can add items, remove items. Admin can manage and update item stock quantity",
+        "tech":"React, React Router, Bootstrap, MongoDB, Node js, Express js, Firebase"
+    },
+    {
+        "id":4,
         "name":"Dronez House",
         "title": "Single Product Review Website",
         "img":"https://i.ibb.co/614mR4L/screencapture-shahmah-dronezhouse-netlify-app-home-2022-06-09-14-13-04.png",
