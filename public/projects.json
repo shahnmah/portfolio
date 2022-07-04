@@ -62,5 +62,37 @@
         "dis": "Single Product Review Website, where user can see product reviews.",
         "disMore":"Single Product Review Website, where users can see product reviews. Users can know about the product and they see product users review.",
         "tech":"React, React Router, Bootstrap, React Bootstrap Firebase, Css"
+    },
+    {
+        "id":5,
+        "name":"Influencer",
+        "title": "Travel Influencer Website",
+        "img":"https://i.ibb.co/TK0xp8B/screencapture-shahnmah-github-io-Travel-Influencer-2022-07-04-22-02-12.png",
+        "slideImg1":"https://i.ibb.co/7JX4wZf/Screenshot-6.png",
+        "slideImg2":"https://i.ibb.co/kq5Ktry/Screenshot-7.png",
+        "slideImg3":"https://i.ibb.co/PZL5kJ4/Screenshot-8.png",
+        "slideImg4":"https://i.ibb.co/7JX4wZf/Screenshot-6.png",
+        "slideImg5":"https://i.ibb.co/kq5Ktry/Screenshot-7.png",
+        "live":"https://shahnmah.github.io/Travel-Influencer/",
+        "github": "https://github.com/shahnmah/Travel-Influencer",
+        "dis": "Travel Influencer Website. It is a website for travel Influencer",
+        "disMore":"Travel Influencer Website. It is a website for travel Influencer",
+        "tech":"Html, CSS"
+    },
+    {
+        "id":6,
+        "name":"Mission",
+        "title": "Personal Portfolio Website",
+        "img":"https://i.ibb.co/cFWDCqP/screencapture-shahnmah-github-io-assignment-01-2022-07-04-22-04-45.png",
+        "slideImg1":"https://i.ibb.co/n6fXfCv/Screenshot-10.png",
+        "slideImg2":"https://i.ibb.co/Z6ZKY9q/Screenshot-11.png",
+        "slideImg3":"https://i.ibb.co/GTDBBS3/Screenshot-12.png",
+        "slideImg4":"https://i.ibb.co/n6fXfCv/Screenshot-10.png",
+        "slideImg5":"https://i.ibb.co/Z6ZKY9q/Screenshot-11.png",
+        "live":"https://shahnmah.github.io/portfolio-site/",
+        "github": "https://github.com/shahnmah/portfolio-site",
+        "dis": "Personal Portfolio Website. This is website for display user work details.",
+        "disMore":"Personal Portfolio Website. This is website for display user work details and future mission.",
+        "tech":"Html, CSS"
     }
 ]
