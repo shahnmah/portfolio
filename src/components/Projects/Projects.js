@@ -14,7 +14,7 @@ const Projects = () => {
             <div className='container'>
                 <div className='text-center style-heading-2'>
                     <h2 className='fw-bold'>My Projects</h2>
-                    <p className='my-0 mx-auto section-p'> I have completed mary projects.Hare few of them. You can share me your thought about my projects</p>
+                    <p className='my-0 mx-auto section-p'>I have completed many projects. Here are a few of them. You can share with me your thought about my projects.</p>
                 </div>
                 <div className="row g-5">
                     {

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Banner.css'
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import Typewriter from 'typewriter-effect/dist/core';
+
 
 const Banner = () => {
     return (

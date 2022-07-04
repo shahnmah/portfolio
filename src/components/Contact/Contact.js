@@ -25,11 +25,11 @@ const Contact = () => {
     };
   
     return (
-        <div id='contact' className='contact py-5' style={{ backgroundColor: '#FBFBFB' }}>
+        <div id='contact' className='contact py-5'>
             <div className="container">
                 <div className='text-center style-heading-2'>
                     <h2 className='fw-bold'>Contact Me</h2>
-                    <p className='my-0 mx-auto section-p'>If you have any query feel free to contact Me. I will get back as soon as possible</p>
+                    <p className='my-0 mx-auto section-p'>If you have any queries feel free to Contact Me. I will get back as soon as possible</p>
                 </div>
                 <div className="row">
                     <div className="col-lg-6 col-md-6 com-sm-12 col-12">

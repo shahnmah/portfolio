@@ -25,8 +25,8 @@ const Project = ({ project }) => {
                     <button className='modal-button primary-button' onClick={onOpenModal}><BsInfoSquareFill /></button>
                 </div>
                 <div>
-                    <a className='primary-button project-button me-3' href={github}>Github</a>
-                    <a className='primary-button project-button' href={live}>See Live</a>
+                    <a className='primary-button project-button me-3' target={'_blank'} href={github}>Github</a>
+                    <a className='primary-button project-button'target={'_blank'} href={live}>See Live</a>
                 </div>
             </div>
             <Modal open={open} onClose={onCloseModal} center>
