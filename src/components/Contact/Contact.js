@@ -10,9 +10,7 @@ import ScrollToTop from "react-scroll-to-top";
 const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
-        
-        e.preventDefault();
-       
+         e.preventDefault();
         emailjs.sendForm('service_ppicngi', 'template_v5r8m38', form.current, '98eZXE4kLrpSIU2TB')
           .then((result) => {
               e.target.reset();
@@ -21,9 +19,7 @@ const Contact = () => {
           }, (error) => {
               toast.error('Something wrong')
           });
-      
     };
-  
     return (
         <div id='contact' className='contact py-5'>
             <div className="container">

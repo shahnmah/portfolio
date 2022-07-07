@@ -3,6 +3,7 @@ import './About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faUser, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FaLinkedinIn, FaGithubSquare, FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
+import myImg from '../../images/me.jpg'
 
 const About = () => {
     return (
@@ -11,13 +12,13 @@ const About = () => {
                 <div className="row py-5 g-5">
                     <div className="col-lg-5 col-md-5 col-sm-12 col-12">
                         <div className='about-img-part'>
-                            <img className='img-fluid' src="https://i.ibb.co/ySgNkF3/me12.jpg" alt="" />
+                            <img className='img-fluid' src={myImg} alt="my img" />
                         </div>
 
                     </div>
                     <div className="col-lg-7 col-md-7 col-sm-12 col-12">
                         <h4 className='fw-bold style-heading'>About Me</h4>
-                        <h4 className='fw-bold'>I'm Professional Front End Developer <br /> & Tech Enthusiast</h4>
+                        <h4 className='fw-bold'>I'm Professional React Developer <br /> & Tech Enthusiast</h4>
                         <p>Hello there, I am Shahin Miah. A Front End Developer from Bangladesh. Skilled in Front-end Development, html, css, jQuery, javascript, Bootstrap, Tailwind Css, Responsive Web Design, React, Node js, MongoDb, Express js. Strong web development professional with a Bachelor of Business Administration - BBA focused in Marketing from Khilgaon Model University College.</p>
                         <p>My vision is build a career in the Web and Software industry, and reach towards my goals.</p>
                         <div>
