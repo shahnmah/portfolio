@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
     return (
-        <div id='banner' style={{ backgroundColor: '#FBFBFB' }} className="banner">
+        <div id='banner' style={{ backgroundColor: '#FBFBFB' }} className="banner py-5">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center">

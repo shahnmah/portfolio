@@ -6,7 +6,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ScrollToTop from "react-scroll-to-top";
 
-
 const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
@@ -29,14 +28,7 @@ const Contact = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-6 col-md-6 com-sm-12 col-12">
-                        <Player
-                            autoplay
-                            loop
-                            src="contact-animation.json"
-                            style={{ height: '400px', width: '400px' }}
-                        >
-                            <Controls visible={false} buttons={['play', 'repeat', 'frame', 'debug']} />
-                        </Player>
+                        <img className='ms-5' src="https://i.ibb.co/dWTPcmC/contact.png" alt="contact img" />
                     </div>
                     <div className="col-lg-6 col-md-6 com-sm-12 col-12">
                         <form className='mt-5'  ref={form} onSubmit={sendEmail}>
@@ -61,5 +53,4 @@ const Contact = () => {
         </div>
     );
 };
-
 export default Contact;

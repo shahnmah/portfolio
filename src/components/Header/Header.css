@@ -4,6 +4,7 @@
     text-transform: capitalize; 
     text-decoration: none;
     transition: .4s;
+    font-weight: 700;
 }
 .menu a:hover{
     color: #3366cc;
