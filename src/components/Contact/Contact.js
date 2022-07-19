@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import { Controls, Player } from '@lottiefiles/react-lottie-player';
 import { Button, Form } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
@@ -27,8 +26,8 @@ const Contact = () => {
                     <p className='my-0 mx-auto section-p'>If you have any queries feel free to Contact Me. I will get back as soon as possible</p>
                 </div>
                 <div className="row">
-                    <div className="col-lg-6 col-md-6 com-sm-12 col-12">
-                        <img className='ms-5' src="https://i.ibb.co/dWTPcmC/contact.png" alt="contact img" />
+                    <div className="col-lg-6 col-md-6 com-sm-12 col-12 d-flex justify-content-center">
+                        <img className='img-fluid' src="https://i.ibb.co/dWTPcmC/contact.png" alt="contact img" />
                     </div>
                     <div className="col-lg-6 col-md-6 com-sm-12 col-12">
                         <form className='mt-5'  ref={form} onSubmit={sendEmail}>
