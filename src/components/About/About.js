@@ -18,13 +18,13 @@ const About = () => {
                     </div>
                     <div className="col-lg-7 col-md-7 col-sm-12 col-12">
                         <h4 className='fw-bold style-heading'>About Me</h4>
-                        <h4 className='fw-bold'>I'm Professional React Developer <br /> & Tech Enthusiast</h4>
-                        <p>Hello there, I am Shahin Miah. A Front End Developer from Bangladesh. Skilled in Front-end Development, html, css, jQuery, javascript, Bootstrap, Tailwind Css, Responsive Web Design, React, Node js, MongoDb, Express js. Strong web development professional with a Bachelor of Business Administration - BBA focused in Marketing from Khilgaon Model University College.</p>
+                        <h4 className='fw-bold'>A Professional Front End Developer <br /> & Tech Enthusiast</h4>
+                        <p>Hello there, I am Shahin Miah. A Front End Developer from Bangladesh. Skilled in Front-end Development, HTML, CSS, jQuery, Javascript, Bootstrap, Tailwind CSS, Responsive Web Design, React JS, Node JS, MongoDB, Express JS. Strong front-end web development professional with a Bachelor of Business Administration BBA focused in Marketing from National University Bangladesh.</p>
                         <p>My vision is build a career in the Web and Software industry, and reach towards my goals.</p>
                         <div>
                             <ul className='ps-0'>
                                 <li className='me-5'><FontAwesomeIcon icon={faEnvelope} /><span className='fw-bold ms-3'>Email:</span> shahn.mah@gmail.com</li>
-                                <li><FontAwesomeIcon icon={faPhone} /><span className='fw-bold ms-3'>Phone:</span> +8801741409006</li>
+                                <li><FontAwesomeIcon icon={faPhone} /><span className='fw-bold ms-3'>Phone:</span> +8801965067222</li>
                             </ul>
                             <ul className='ps-0 about-li-2'>
                                 <li className='me-5'><FontAwesomeIcon icon={faLocationDot} /><span className='fw-bold ms-3'>Address:</span> Dhaka, Bangladesh</li>
